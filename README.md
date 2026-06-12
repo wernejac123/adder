@@ -11,3 +11,5 @@ linux:
 FreeDOS:
    C:\DEVEL\WATCOMF\OWSETENV.BAT
    WFL *.f
+
+   I included a screenshot of the digital simulation I made in Qucs-s, which is whatthis FORTRAN program is simulating. 
