@@ -1,0 +1,18 @@
+C FORTRAN 77 SUBROUTINE CONVERT CHARACTER ARRAY TO LOGICAL ARRAY OF 
+C LENGTH N
+      SUBROUTINE CVT(A,X,N)
+      IMPLICIT NONE
+      CHARACTER A(*)
+      LOGICAL X(*)
+      INTEGER N,I
+
+      DO 20 I=1,N
+      IF(A(I) .EQ. '0') THEN
+       X(I)=.FALSE.
+      ELSE
+       X(I)=.TRUE.
+      ENDIF
+20    CONTINUE
+
+      RETURN
+      END
